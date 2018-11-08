@@ -1,0 +1,82 @@
+{
+  "bairro" : {
+    "hash" : {
+      "key_cidade" : "hash_cidade",
+      "nome" : "bairro teste"
+    }
+  },
+  "categoria" : {
+    "hash" : {
+      "nome" : "serviços gerais"
+    }
+  },
+  "categoria_profissional" : {
+    "hash" : {
+      "key_categoria" : "hash_categoria",
+      "key_profissional" : "hash_profissional"
+    }
+  },
+  "categoria_vaga" : {
+    "hash" : {
+      "key_categoria" : "hash_categoria",
+      "key_vaga" : "hash_vaga"
+    }
+  },
+  "cidade" : {
+    "hash" : {
+      "estado" : "estado teste",
+      "nome" : "cidade teste"
+    }
+  },
+  "comentario" : {
+    "hash" : {
+      "avaliacao" : 3,
+      "dat_comentario" : "10-10-2010",
+      "dat_exclusao" : "10-10-2010",
+      "key_profissional" : "hash_profissional",
+      "mensagem" : "critica, elogios, comentarios"
+    }
+  },
+  "profissional" : {
+    "hash" : {
+      "celular" : 12365498,
+      "complemento" : "casa c",
+      "cpf" : 12345678910,
+      "dat_exclusao" : "10-10-2010",
+      "dat_nascimento" : "10-10-2010",
+      "descricao" : "mais detalhes do profissional",
+      "key_bairro" : "hash_bairro",
+      "key_cidade" : "hash_cidade",
+      "key_usuario" : "hash_usuario",
+      "logradouro" : "rua teste",
+      "nome" : "teste",
+      "profissao" : "pedreiro teste",
+      "telefone" : ""
+    }
+  },
+  "usuarios" : {
+    "hash" : {
+      "email" : "teste@teste.com"
+    }
+  },
+  "vaga" : {
+    "hash" : {
+      "celular" : 123654886,
+      "complemento" : "casa c",
+      "dat_exclusao" : "10-10-2010",
+      "dat_final" : "10-10-210",
+      "dat_inicio" : "10-10-2010",
+      "descricao" : "mais detalhes da vaga",
+      "key_bairro" : "hash_bairro",
+      "key_cidade" : "hash_cidade",
+      "key_profissional" : "hash_profissional",
+      "key_usuario" : "hash_usuario",
+      "logradouro" : "rua teste",
+      "nom_contratante" : "teste",
+      "status" : "ativo",
+      "telefone" : "",
+      "titulo" : "procurase pedreiro",
+      "valor" : 100
+    }
+  }
+}
